@@ -49,9 +49,10 @@ h1, h2, h3 {
 # LOAD MODEL
 # ==========================================
 
-model = joblib.load(
-    r"C:\Users\HP\Desktop\goody\project\churn_prediction\churn_prediction.pkl"
-)
+
+model = joblib.load("churn_prediction.pkl")
+
+
 
 # ==========================================
 # TITLE
